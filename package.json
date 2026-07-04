@@ -1,0 +1,18 @@
+{
+  "name": "clados",
+  "version": "0.1.0",
+  "description": "News agent that surfaces relevant HN articles while Claude is working",
+  "license": "MIT",
+  "author": "dalechyn",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dalechyn/better-claude-tips.git"
+  },
+  "scripts": {
+    "hook": "tsx src/hook.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
